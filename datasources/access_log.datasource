@@ -1,0 +1,13 @@
+DESCRIPTION generated from https://raw.githubusercontent.com/tinybirdco/log_parsing_template/main/access.log.csv
+
+SCHEMA >
+    `column_00` String,
+    `column_01` String,
+    `column_02` String,
+    `column_03` String,
+    `column_04` String,
+    `column_05` String,
+    `column_06` Int32,
+    `column_07` Int32,
+    `column_08` String,
+    `column_09` String

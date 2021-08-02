@@ -1,0 +1,13 @@
+
+DESCRIPTION materialzed view
+NODE matview
+SQL >
+    SELECT
+        ip,
+        countState() AS request_count,
+        avgState(bytes) as avg_bytes
+    FROM access_log_transform
+    GROUP BY ip
+
+TYPE Materialized
+DATASOURCE requests_per_endpoint_ds
