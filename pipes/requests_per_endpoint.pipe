@@ -14,5 +14,6 @@ SQL >
 NODE endpoint
 SQL >
     select IPv4NumToString(ip) as ip_address,
-           request_count
+           request_count,
+           avg_bytes
     from grouping

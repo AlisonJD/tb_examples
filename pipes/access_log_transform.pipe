@@ -1,5 +1,5 @@
 
-DESCRIPTION extract column data from raw access log
+DESCRIPTION extract column data from raw access log and name columns
 NODE extract_column_data
 SQL >
     select

@@ -1,5 +1,5 @@
 
-DESCRIPTION materialzed view
+DESCRIPTION materialized view
 NODE matview
 SQL >
     SELECT
