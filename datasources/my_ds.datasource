@@ -1,0 +1,11 @@
+
+DESCRIPTION my_ds with some new columns
+
+SCHEMA >
+    `n` Int16,
+    `v` String,
+    `v_str_def_thing` String DEFAULT 'thing',
+    `v_str_no_default` String,
+    `v_int_def_3` Int16 DEFAULT 3,
+    `v_int_no_default` Int16
+
