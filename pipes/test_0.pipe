@@ -1,0 +1,14 @@
+
+NODE DS4AW_test_2
+SQL >
+SELECT
+   count(user_id) as count,
+   toHour(timestamp) as hour
+FROM test
+group by hour
+
+NODE DS4AW_test_3
+SQL >
+SELECT 
+max(count)-min(count) 
+FROM DS4AW_test_2

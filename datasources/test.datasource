@@ -1,0 +1,4 @@
+
+SCHEMA >
+    `user_id` Nullable(Int64),
+    `timestamp` DateTime
