@@ -1,0 +1,8 @@
+DESCRIPTION generated from datasources/events.datasource
+
+SCHEMA >
+    `column_00` Nullable(String),
+    `column_01` Nullable(String),
+    `column_02` Nullable(String),
+    `column_03` Nullable(String),
+    `column_04` String,

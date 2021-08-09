@@ -8,7 +8,7 @@ SCHEMA >
 # this creates a join table ready to access by sku
 # using joinGet('products_join_by_id', 'color', sku)
 
-ENGINE "Join"
-#ENGINE_JOIN_STRICTNESS "ANY"
-#ENGINE_JOIN_TYPE "LEFT"
-ENGINE_KEY_COLUMNS "sku"
+ENGINE Join
+ENGINE_JOIN_STRICTNESS ANY
+ENGINE_JOIN_TYPE LEFT
+ENGINE_KEY_COLUMNS sku

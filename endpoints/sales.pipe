@@ -1,4 +1,7 @@
 
+DESCRIPTION >
+    return sales for a product with color filter
+    
 NODE only_buy_events
 SQL >
     SELECT
