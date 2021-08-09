@@ -1,0 +1,20 @@
+
+NODE only_buy_events
+SQL >
+    SELECT
+        toDate(date) date,
+        product_id,
+        joinGet('products_join_sku', 'color', product_id) as color,
+        JSONExtractFloat(extra_data, 'price') as price
+    FROM events
+    WHERE event = 'buy'
+
+NODE endpoint
+DESCRIPTION >
+    return sales for a product with color filter
+SQL >
+    %
+    select date, sum(price) total_sales
+    from only_buy_events
+    where color = 'dark green'
+    group by date
