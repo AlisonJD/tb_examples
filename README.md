@@ -3,6 +3,7 @@
 using the Tinybird CLI
 
  - Publish SQL based endpoints on NGINX log analysis
- - Add a Column to a Data Source
- - Ecommerce Data Project
- - Alerts from Time Series Predictions
+ - Add a column to a data source
+ - Ecommerce data project
+ - Alerts from time series predictions
+ - Dynamic plots in a web app (call Tinybird APIs)
