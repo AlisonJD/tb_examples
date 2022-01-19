@@ -7,3 +7,7 @@ using the Tinybird CLI
  - Ecommerce data project
  - Alerts from time series predictions
  - Dynamic plots in a web app (call Tinybird APIs)
+
+using the Tinybird API
+ - Ingest from an array and fetch data
+ 
